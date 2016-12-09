@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.xeijin.admintienda.IntroScreen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_intro_sesion"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/intro_inisesion" />
+
+        <Button
+            android:id="@+id/btn_intro_registrar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/intro_registrar" />
+
+    </LinearLayout>
+
+</LinearLayout>

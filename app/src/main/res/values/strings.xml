@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Admin Tienda</string>
+
+    <!-- Intro Screen -->
+    <string name="intro_inisesion">Iniciar sesión</string>
+    <string name="intro_registrar">Registrarse</string>
+
+    <!-- Login Screen -->
+    <string name="login_hintuser">Usuario</string>
+    <string name="login_hintpass">Contraseña</string>
+
 </resources>
