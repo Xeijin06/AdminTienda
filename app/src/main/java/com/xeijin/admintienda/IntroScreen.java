@@ -42,7 +42,7 @@ public class IntroScreen extends AppCompatActivity {
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toRegister = new Intent(IntroScreen.this, LoginScreen.class);
+                Intent toRegister = new Intent(IntroScreen.this, RegisterScreen.class);
                 startActivity(toRegister);
             }
         });

@@ -19,29 +19,28 @@
             android:layout_height="180dp"
             android:src="@mipmap/ic_launcher" />
 
-        <EditText
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:ellipsize="end"
-            android:hint="@string/login_hintuser"
-            android:lines="1"
-            android:maxLines="1" />
 
         <EditText
-            android:layout_width="200dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:hint="@string/login_hintuser"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:ellipsize="end"
             android:hint="@string/login_hintpass"
-            android:lines="1"
-            android:maxLines="1" />
+            android:singleLine="true" />
 
         <Button
-            android:layout_width="200dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="@string/intro_inisesion" />
+            android:background="@drawable/circlebutton"
+            android:text="@string/intro_inisesion"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 

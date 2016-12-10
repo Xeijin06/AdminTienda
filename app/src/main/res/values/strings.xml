@@ -9,4 +9,12 @@
     <string name="login_hintuser">Usuario</string>
     <string name="login_hintpass">Contraseña</string>
 
+    <!-- Register Screen -->
+    <string name="register_title">Registro de usuario</string>
+    <string name="register_hintuser">Usuario</string>
+    <string name="register_hintemail">Email</string>
+    <string name="register_hintpass">Contraseña</string>
+    <string name="register_hintrepass">Re-Contraseña</string>
+    <string name="register_btnregistrar">Registrar</string>
+
 </resources>
